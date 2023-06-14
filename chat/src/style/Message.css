@@ -1,0 +1,68 @@
+.msgDisplay
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 300px;
+    padding: 5px;
+    border: 1px solid rgba(255,255,255,0.18);
+    background:linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0.1));
+    backdrop-filter:blur(10px);
+    border-radius: 10px;
+    box-shadow: 0 8px 0 rgba(0,0, 0, 0.17);
+
+}
+
+.left
+{
+    float: left;
+    clear: both;
+    margin: 5px;
+    padding: 10px;
+}
+.right
+{
+    float: right;
+    clear: both;
+    margin: 5px;
+    padding: 10px;
+}
+
+
+
+.info
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.profilePhoto
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    margin: 5px;
+}
+
+.msg
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.date{
+    font-size: 10px;
+}
+
+.msgImage
+{
+    height: 200px;
+    width: 100%;
+}
+
+.text
+{
+    font-weight: 1000;
+}

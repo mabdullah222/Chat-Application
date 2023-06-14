@@ -1,0 +1,23 @@
+.number
+{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 1px solid rgba(255,255,255,0.18);
+    background:linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0.1));
+    backdrop-filter:blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 8px 0 rgba(0,0, 0, 0.17);
+    cursor: pointer;
+}
+.number > img
+{
+    width: 60px;
+    height: 60px;
+}
+.number:hover
+{
+    background:linear-gradient(135deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3));
+}

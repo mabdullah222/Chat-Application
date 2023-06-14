@@ -1,0 +1,45 @@
+.file_input-container input[type=file] {
+    width: 77px;
+    padding: 10px;
+    border: 1px solid rgba(255,255,255,0.18);
+    background:linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0.1));
+    backdrop-filter:blur(10px);
+    border-radius: 10px;
+    box-shadow: 0 8px 0 rgba(0,0, 0, 0.17);
+    cursor: pointer;
+} 
+
+
+.msgPosition
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.msgPosition > img 
+{
+    height: 100px;
+    width: 100px;
+}
+
+.msgPosition >img:hover
+{
+    height: 200px;
+    width: 200px;
+}
+
+.infoPanel
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.infoPhoto
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+}
